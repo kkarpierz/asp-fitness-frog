@@ -11,6 +11,7 @@ namespace Treehouse.FitnessFrog.Controllers {
     public class EntriesController : Controller {
         private EntriesRepository _entriesRepository = null;
 
+
         public EntriesController() {
             _entriesRepository = new EntriesRepository();
         }
